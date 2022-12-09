@@ -4,8 +4,7 @@
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
     "start": "./start.sh",
-    "build": "parcel build index.html --public-url ./",
-    "build:dev": "react-scripts build"
+    "build": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
