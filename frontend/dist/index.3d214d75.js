@@ -28413,7 +28413,7 @@ class Wallet {
     }
 }
 
-},{"buffer":"ggnIS","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ggnIS":[function(require,module,exports) {
+},{"buffer":"jFRTz","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jFRTz":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -29643,7 +29643,7 @@ var hexSliceLookupTable = function() {
     return table;
 }();
 
-},{"base64-js":"dzS8G","ieee754":"h0hmG"}],"dzS8G":[function(require,module,exports) {
+},{"base64-js":"k9x6o","ieee754":"cvhyh"}],"k9x6o":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -29743,7 +29743,7 @@ function fromByteArray(uint8) {
     return parts.join("");
 }
 
-},{}],"h0hmG":[function(require,module,exports) {
+},{}],"cvhyh":[function(require,module,exports) {
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */ exports.read = function(buffer, offset, isLE, mLen, nBytes) {
     var e, m;
     var eLen = nBytes * 8 - mLen - 1;
@@ -32987,7 +32987,7 @@ function deserializeUnchecked(schema, classType, buffer, Reader = BinaryReader) 
 }
 exports.deserializeUnchecked = deserializeUnchecked;
 
-},{"buffer":"ggnIS","bn.js":"VopIn","bs58":"4ji3p","text-encoding-utf-8":"feCA6"}],"VopIn":[function(require,module,exports) {
+},{"buffer":"jFRTz","bn.js":"VopIn","bs58":"4ji3p","text-encoding-utf-8":"feCA6"}],"VopIn":[function(require,module,exports) {
 (function(module1, exports) {
     "use strict";
     // Utils
@@ -35912,7 +35912,7 @@ SafeBuffer.allocUnsafeSlow = function(size) {
     return buffer.SlowBuffer(size);
 };
 
-},{"buffer":"ggnIS"}],"feCA6":[function(require,module,exports) {
+},{"buffer":"jFRTz"}],"feCA6":[function(require,module,exports) {
 "use strict";
 // This is free and unencumbered software released into the public domain.
 // See LICENSE.md for more information.
@@ -36778,7 +36778,7 @@ exports.Provider = Provider;
 }
 exports.getTransactionLastResult = getTransactionLastResult;
 
-},{"buffer":"ggnIS"}],"kzXVU":[function(require,module,exports) {
+},{"buffer":"jFRTz"}],"kzXVU":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
@@ -37138,7 +37138,7 @@ let _nextId = 123;
 }
 exports.JsonRpcProvider = JsonRpcProvider;
 
-},{"buffer":"ggnIS","depd":"2jGeI","./provider":"cUEh0","../utils/web":"iSqiB","../utils/errors":"btMYy","borsh":"4JCmN","../utils/exponential-backoff":"51I5X","../utils/rpc_errors":"1TB1L"}],"2jGeI":[function(require,module,exports) {
+},{"buffer":"jFRTz","depd":"2jGeI","./provider":"cUEh0","../utils/web":"iSqiB","../utils/errors":"btMYy","borsh":"4JCmN","../utils/exponential-backoff":"51I5X","../utils/rpc_errors":"1TB1L"}],"2jGeI":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -41893,7 +41893,7 @@ async function signTransaction(...args) {
 }
 exports.signTransaction = signTransaction;
 
-},{"buffer":"ggnIS","js-sha256":"ahVaM","./utils/enums":"kjmPo","borsh":"4JCmN","./utils/key_pair":"kBQFP"}],"ahVaM":[function(require,module,exports) {
+},{"buffer":"jFRTz","js-sha256":"ahVaM","./utils/enums":"kjmPo","borsh":"4JCmN","./utils/key_pair":"kBQFP"}],"ahVaM":[function(require,module,exports) {
 var process = require("process");
 var global = arguments[3];
 /**
@@ -42899,7 +42899,7 @@ function bytesJsonStringify(input) {
 }
 exports.Account = Account;
 
-},{"buffer":"ggnIS","bn.js":"9pdNn","depd":"2jGeI","./transaction":"jJQ5a","./providers":"gtL2a","borsh":"4JCmN","./utils/key_pair":"kBQFP","./utils/errors":"btMYy","./utils/rpc_errors":"1TB1L","./constants":"lUNnG","./utils/exponential-backoff":"51I5X"}],"lUNnG":[function(require,module,exports) {
+},{"buffer":"jFRTz","bn.js":"9pdNn","depd":"2jGeI","./transaction":"jJQ5a","./providers":"gtL2a","borsh":"4JCmN","./utils/key_pair":"kBQFP","./utils/errors":"btMYy","./utils/rpc_errors":"1TB1L","./constants":"lUNnG","./utils/exponential-backoff":"51I5X"}],"lUNnG":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -43239,7 +43239,7 @@ const convertActions = (actions, accountId, receiverId)=>actions.map((a)=>{
         return action;
     });
 
-},{"buffer":"ggnIS","bn.js":"9pdNn","depd":"2jGeI","./account":"hxSQV","./utils/format":"16c5X","./utils/key_pair":"kBQFP","./transaction":"jJQ5a","./utils/web":"iSqiB"}],"aQbxV":[function(require,module,exports) {
+},{"buffer":"jFRTz","bn.js":"9pdNn","depd":"2jGeI","./account":"hxSQV","./utils/format":"16c5X","./utils/key_pair":"kBQFP","./transaction":"jJQ5a","./utils/web":"iSqiB"}],"aQbxV":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -43934,7 +43934,7 @@ exports.WalletAccount = WalletConnection;
 }
 exports.ConnectedWalletAccount = ConnectedWalletAccount;
 
-},{"buffer":"ggnIS","depd":"2jGeI","./account":"hxSQV","./transaction":"jJQ5a","./utils":"jOCMH","borsh":"4JCmN"}],"7yTE6":[function(require,module,exports) {
+},{"buffer":"jFRTz","depd":"2jGeI","./account":"hxSQV","./transaction":"jJQ5a","./utils":"jOCMH","borsh":"4JCmN"}],"7yTE6":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -61086,7 +61086,7 @@ function setupLedger({ iconUrl =icon , deprecated =false  } = {}) {
         });
 }
 
-},{"buffer":"ggnIS","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
+},{"buffer":"jFRTz","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
 "use strict";
 module.exports = isMobile;
 module.exports.isMobile = isMobile;
@@ -64074,7 +64074,7 @@ function getFirstLedgerDevice() {
 }((0, _hwTransportDefault.default));
 exports.default = TransportWebHID;
 
-},{"buffer":"ggnIS","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
+},{"buffer":"jFRTz","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TransportError", ()=>(0, _errors.TransportError));
@@ -64523,7 +64523,7 @@ var __values = undefined && undefined.__values || function(o) {
 }();
 exports.default = Transport;
 
-},{"buffer":"ggnIS","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
+},{"buffer":"jFRTz","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -65441,7 +65441,7 @@ var initialAcc = {
 };
 exports["default"] = createHIDframing;
 
-},{"buffer":"ggnIS","@ledgerhq/errors":"EVZMy"}],"fnHxP":[function(require,module,exports) {
+},{"buffer":"jFRTz","@ledgerhq/errors":"EVZMy"}],"fnHxP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IIGenericHID", ()=>IIGenericHID);
